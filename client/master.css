@@ -80,6 +80,12 @@ h1, h2, h3, h4  {
   margin: auto;
 }
 
+#bookseat {
+  text-align:center;
+  margin: auto;
+  font-size: 50px;
+}
+
 .form-group {
   border: 1px solid #f9f9f9;
   margin: 10px;
