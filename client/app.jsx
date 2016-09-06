@@ -99,6 +99,10 @@ componentWillMount() {
           <div className="container">
             <h1>Detailed Search</h1>
             <SearchBar infoStore={this.infoStore}/>
+           <div className="container">
+             <h1>Detailed Search</h1>
+             <SearchBar infoStore={this.infoStore}/>
+           </div>
           </div>
           <TripList reserveSeat={this.reserveSeat} trips={this.state.tripResults}/>
         </div>
